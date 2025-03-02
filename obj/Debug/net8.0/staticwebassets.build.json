@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Rg5bZCRDPIJpEi9nWCZpipxhrrvI9pWZ0UtTNLmRQoQ=",
+  "Source": "GrpcPersonService",
+  "BasePath": "_content/GrpcPersonService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

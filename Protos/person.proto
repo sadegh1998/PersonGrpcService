@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcPersonService";
+
+service PersonService {
+  rpc CreatePerson (Person) returns (PersonResponse);
+  rpc GetPerson (PersonRequest) returns (Person);
+  rpc UpdatePerson (Person) returns (PersonResponse);
+  rpc DeletePerson (PersonRequest) returns (PersonResponse);
+  rpc GetAllPersons (Empty) returns (PersonsList);
+}
+
+message Empty {}
+
+message Person {
+  int32 id = 1;
+  string firstName = 2;
+  string lastName = 3;
+  string nationalCode = 4;
+  string birthDate = 5;
+}
+
+message PersonRequest {
+  int32 id = 1;
+}
+
+message PersonResponse {
+  bool success = 1;
+  string message = 2;
+}
+
+message PersonsList {
+  repeated Person persons = 1;
+}
