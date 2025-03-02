@@ -36,3 +36,4 @@ F:\Github-Project\GrpcPersonService\GrpcPersonService\obj\Debug\net8.0\refint\Gr
 F:\Github-Project\GrpcPersonService\GrpcPersonService\obj\Debug\net8.0\GrpcPersonService.pdb
 F:\Github-Project\GrpcPersonService\GrpcPersonService\obj\Debug\net8.0\GrpcPersonService.genruntimeconfig.cache
 F:\Github-Project\GrpcPersonService\GrpcPersonService\obj\Debug\net8.0\ref\GrpcPersonService.dll
+F:\Github-Project\GrpcPersonService\GrpcPersonService\obj\Debug\net8.0\GrpcPersonService.sourcelink.json
